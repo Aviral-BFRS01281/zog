@@ -3,7 +3,7 @@ package zog
 import (
 	"maps"
 
-	p "github.com/Oudwins/zog/internals"
+	p "github.com/Aviral-BFRS01281/zog/internals"
 )
 
 // Merge combines two or more schemas into a new schema.

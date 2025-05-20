@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	p "github.com/Oudwins/zog/internals"
-	"github.com/Oudwins/zog/tutils"
-	"github.com/Oudwins/zog/zconst"
+	p "github.com/Aviral-BFRS01281/zog/internals"
+	"github.com/Aviral-BFRS01281/zog/tutils"
+	"github.com/Aviral-BFRS01281/zog/zconst"
 	"github.com/stretchr/testify/assert"
 )
 

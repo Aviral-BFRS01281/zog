@@ -3,8 +3,8 @@ package i18n
 import (
 	"testing"
 
-	"github.com/Oudwins/zog"
-	"github.com/Oudwins/zog/zconst"
+	"github.com/Aviral-BFRS01281/zog"
+	"github.com/Aviral-BFRS01281/zog/zconst"
 	"github.com/stretchr/testify/assert"
 )
 

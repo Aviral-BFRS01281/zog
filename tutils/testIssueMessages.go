@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Oudwins/zog/i18n/en"
-	"github.com/Oudwins/zog/internals"
-	"github.com/Oudwins/zog/zconst"
+	"github.com/Aviral-BFRS01281/zog/i18n/en"
+	"github.com/Aviral-BFRS01281/zog/internals"
+	"github.com/Aviral-BFRS01281/zog/zconst"
 	"github.com/stretchr/testify/assert"
 )
 

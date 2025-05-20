@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Oudwins/zog/tutils"
+	"github.com/Aviral-BFRS01281/zog/tutils"
 	"github.com/stretchr/testify/assert"
 )
 

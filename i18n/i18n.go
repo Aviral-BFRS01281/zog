@@ -1,9 +1,9 @@
 package i18n
 
 import (
-	"github.com/Oudwins/zog/conf"
-	"github.com/Oudwins/zog/internals"
-	"github.com/Oudwins/zog/zconst"
+	"github.com/Aviral-BFRS01281/zog/conf"
+	"github.com/Aviral-BFRS01281/zog/internals"
+	"github.com/Aviral-BFRS01281/zog/zconst"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	p "github.com/Oudwins/zog/internals"
+	p "github.com/Aviral-BFRS01281/zog/internals"
 	"github.com/stretchr/testify/assert"
 )
 

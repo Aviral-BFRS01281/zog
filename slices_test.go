@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Oudwins/zog/tutils"
-	"github.com/Oudwins/zog/zconst"
+	"github.com/Aviral-BFRS01281/zog/tutils"
+	"github.com/Aviral-BFRS01281/zog/zconst"
 	"github.com/stretchr/testify/assert"
 )
 

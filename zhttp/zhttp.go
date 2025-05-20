@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"strings"
 
-	p "github.com/Oudwins/zog/internals"
-	"github.com/Oudwins/zog/parsers/zjson"
-	"github.com/Oudwins/zog/zconst"
+	p "github.com/Aviral-BFRS01281/zog/internals"
+	"github.com/Aviral-BFRS01281/zog/parsers/zjson"
+	"github.com/Aviral-BFRS01281/zog/zconst"
 )
 
 type ParserFunc = func(r *http.Request) p.DpFactory

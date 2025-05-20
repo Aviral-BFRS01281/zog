@@ -1,8 +1,8 @@
 package zog
 
 import (
-	"github.com/Oudwins/zog/conf"
-	p "github.com/Oudwins/zog/internals"
+	"github.com/Aviral-BFRS01281/zog/conf"
+	p "github.com/Aviral-BFRS01281/zog/internals"
 )
 
 // ! Passing Types through

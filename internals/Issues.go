@@ -3,7 +3,7 @@ package internals
 import (
 	"fmt"
 
-	zconst "github.com/Oudwins/zog/zconst"
+	zconst "github.com/Aviral-BFRS01281/zog/zconst"
 )
 
 // this is the function that formats the error message given a zog error

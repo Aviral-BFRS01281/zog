@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	z "github.com/Oudwins/zog"
-	"github.com/Oudwins/zog/zconst"
+	z "github.com/Aviral-BFRS01281/zog"
+	"github.com/Aviral-BFRS01281/zog/zconst"
 	"github.com/stretchr/testify/assert"
 )
 

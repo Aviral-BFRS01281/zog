@@ -3,7 +3,7 @@ package zog
 import (
 	"testing"
 
-	"github.com/Oudwins/zog/zconst"
+	"github.com/Aviral-BFRS01281/zog/zconst"
 	"github.com/stretchr/testify/assert"
 )
 

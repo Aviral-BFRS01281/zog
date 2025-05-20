@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	zconst "github.com/Oudwins/zog/zconst"
+	zconst "github.com/Aviral-BFRS01281/zog/zconst"
 )
 
 func GetKeyFromField(field reflect.StructField, fallback string, tag *string) string {

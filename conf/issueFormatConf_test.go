@@ -3,8 +3,8 @@ package conf
 import (
 	"testing"
 
-	p "github.com/Oudwins/zog/internals"
-	zconst "github.com/Oudwins/zog/zconst"
+	p "github.com/Aviral-BFRS01281/zog/internals"
+	zconst "github.com/Aviral-BFRS01281/zog/zconst"
 	"github.com/stretchr/testify/assert"
 )
 

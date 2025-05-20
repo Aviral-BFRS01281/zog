@@ -5,8 +5,8 @@ import (
 	"errors"
 	"io"
 
-	p "github.com/Oudwins/zog/internals"
-	"github.com/Oudwins/zog/zconst"
+	p "github.com/Aviral-BFRS01281/zog/internals"
+	"github.com/Aviral-BFRS01281/zog/zconst"
 )
 
 // func Unmarshal(data []byte) p.DpFactory {
