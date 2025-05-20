@@ -95,3 +95,8 @@ func (v *FileSchema[T]) Default(val T) *FileSchema[T] {
 	v.defaultVal = &val
 	return v
 }
+// sets the default value
+func (v *FileSchema[T]) Default2(val T) *FileSchema[T] {
+	v.defaultVal = &val
+	return v
+}
