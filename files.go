@@ -1,10 +1,11 @@
 package zog
 
 import (
+	"mime/multipart"
+
 	"github.com/Aviral-BFRS01281/zog/conf"
 	p "github.com/Aviral-BFRS01281/zog/internals"
 	"github.com/Aviral-BFRS01281/zog/zconst"
-	"mime/multipart"
 )
 
 var _ PrimitiveZogSchema[multipart.FileHeader] = &FileSchema[multipart.FileHeader]{}
@@ -27,6 +28,17 @@ func (v *FileSchema[T]) getType() zconst.ZogType {
 // Sets the coercer for the schema
 func (v *FileSchema[T]) setCoercer(c CoercerFunc) {
 	v.coercer = c
+}
+
+// Returns a new String Shape
+func File(opts ...SchemaOption) *FileSchema[multipart.FileHeader] {
+	s := &FileSchema[multipart.FileHeader]{
+		coercer: conf.Coercers.File, // default coercer
+	}
+	for _, opt := range opts {
+		opt(s)
+	}
+	return s
 }
 
 // parses the value and stores it in the destination
@@ -95,6 +107,7 @@ func (v *FileSchema[T]) Default(val T) *FileSchema[T] {
 	v.defaultVal = &val
 	return v
 }
+
 // sets the default value
 func (v *FileSchema[T]) Default2(val T) *FileSchema[T] {
 	v.defaultVal = &val

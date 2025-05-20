@@ -2,6 +2,7 @@ package conf
 
 import (
 	"fmt"
+	"mime/multipart"
 	"reflect"
 	"strconv"
 	"time"
@@ -39,6 +40,7 @@ var DefaultCoercers = struct {
 	Float64 CoercerFunc
 	Time    CoercerFunc
 	Slice   CoercerFunc
+	File    CoercerFunc
 }{
 	Bool: func(data any) (any, error) {
 		switch v := data.(type) {
@@ -135,6 +137,14 @@ var DefaultCoercers = struct {
 		// any other type we box
 		default:
 			return []any{data}, nil
+		}
+	},
+	File: func(data any) (any, error) {
+		switch dd := data.(type) {
+		case *multipart.FileHeader:
+			return dd, nil
+		default:
+			return nil, fmt.Errorf("input data is an unsupported type to coerce to file: %v", data)
 		}
 	},
 }
